@@ -10,11 +10,10 @@
 (^|/)Makefile$
 \.old$
 \.bak$
-\.SKIP$
+MANIFEST\.SKIP$
+MYMETA\.(json|yml)$
 (^|/)pm_to_blib
 ^cover_db/
 ^nytprof/
 nytprof.out
-^MYMETA.json$
-^MYMETA.yml$
-^Syntax-Highlight-Engine-Simple-HTML-.*gz$
+^Syntax-Highlight-Engine-Simple-HTML-\d+\..*
